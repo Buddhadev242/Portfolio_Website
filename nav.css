@@ -1,27 +1,10 @@
+.logo{
+    width: 20%;
+    height: 30%;
+    border-radius: 100%;
+    }
 
-body{
-    background-color: rgb(224, 250, 230);
-}
-hr{
-    border-style: none;
-    border-top-style:dotted;
-    border-color: gray;
-    border-width: 5px;
-    width: 10%;
-
-}
-h1{
-    color: rgb(60, 13, 250);
-}
-h3{
-    color: rgb(0, 85, 255);
-}
-
-img {
-    border-radius: 50%;
-}
-
-nav{
+    nav{
     display: flex;
     width: 84%;
     margin: auto;
@@ -41,13 +24,12 @@ nav ul li a{
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: red;
+    color: white;
 }
 nav ul{
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-left: 650px;
-    margin-bottom: 0px;
+    margin-left: 0px;
 }
